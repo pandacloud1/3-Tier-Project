@@ -8,18 +8,18 @@ sudo apt-get update
 sudo apt-get install python3.8 python3.8-venv python3.8-distutils -y
 ```
 
-## Install pip for Python 3.8
+Install pip for Python 3.8
 ```sh
 curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3.8
 ```
 
-## Create virtual environment
+Create virtual environment
 ```py
 python3.8 -m venv venv
 source venv/bin/activate
 ```
 
-## Install required packages
+Install required packages
 ```sh
 pip install Flask mysql-connector-python flask-cors
 ```
